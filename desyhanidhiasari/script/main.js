@@ -23,11 +23,10 @@ function showText() {
     console.log("Bar")
   }
 
-var url ='https://imgur.com/a/c9VlbdH'
 window.addEventListener('load', ()=> {
     Swal.fire({
         title: "Desy Hani Verification",
-        imageUrl: 'https://i.imgur.com/6Q1cT5X.jpg',
+        imageUrl: './img/Greeting.jpg',
         imageWidth: 400,
         imageHeight: 267,
         input: "text",
@@ -40,12 +39,12 @@ window.addEventListener('load', ()=> {
           else if (value.toLowerCase() == '4 maret 2023') {
             // Swal.fire(`Correct 🥳, Hi Desy 😍`);
             Swal.fire({
-                title: "Correct!",
-                text: "Hi Desy 😍",
-                imageUrl: "https://i.imgur.com/rTlfYmu.jpg",
+                title: "Benar! 💯",
+                text: "Selamat datang Desy 😍",
+                imageUrl: "./img/Success.jpeg",
                 imageWidth: 400,
                 imageHeight: 267,
-                imageAlt: "Custom image"
+                imageAlt: "Selamat Datang"
             });
             animationTimeline()
             document.querySelector('.song').play()
