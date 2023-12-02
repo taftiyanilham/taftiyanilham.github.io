@@ -53,9 +53,6 @@ window.addEventListener('load', ()=> {
           }
         }
       });
-    //   if (ipAddress) {
-    //     Swal.fire(`Correct 🥳`);
-    //   }
 });
 
 
