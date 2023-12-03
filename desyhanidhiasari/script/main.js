@@ -51,7 +51,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      alert("Wish terkirim!, Taftiyan akan membacanya ASAP 🎁");
+      alert("Wish terkirim!, Taftiyan akan membacanya ASAP 🫡");
       form.reset()
     })
   });
