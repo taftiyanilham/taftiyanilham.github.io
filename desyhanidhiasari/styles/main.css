@@ -109,7 +109,7 @@ body {
 }
 
 .six .hat {
-  left: 50%;
+  left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
   top: -35%;
@@ -224,10 +224,14 @@ body {
   cursor: pointer;
   z-index: 3;
   background-color: salmon;
-  width: max-content;
+
 }
 
 #letter_modal {
+  cursor: pointer;
+  z-index: 3;
+}
+#wish_modal {
   cursor: pointer;
   z-index: 3;
 }
