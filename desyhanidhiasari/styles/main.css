@@ -109,7 +109,7 @@ body {
 }
 
 .six .hat {
-  left: 43.5%;
+  left: 45%;
   position: absolute;
   /* transform: scale(0.1); */
   top: -35%;
@@ -250,25 +250,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 50%;
+    left: 45%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 49%;
+    left: 45%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 50%;
+    left: 45%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 50%;
+    left: 45%;
   }
 }
 
